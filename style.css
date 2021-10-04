@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;&display=swap");
+:root {
+  --headings: #333333;
+  --text: #666666;
+  --violet: #d2d2f9;
+  --tirkiz: #ccfcff;
+  --lightblue: #e1fefa;
+  --orange: #ffe3d3;
+  --pink: #ffe5f9;
+  --gray: #e8e8fc;
+  --blue: #1c1ce1;
+  --white: #fff;
+  --lightgray: #fcfcfc;
+  --fontSize: 16px;
+  --padding: 50px 0;
+  --transition: 0.3s ease;
+  --fontFamily: "Roboto", sans-serif;
+}
+/*************
+basic styles
+*************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--fontFamily);
+  font-size: var(--fontSize);
+  color: var(--text);
+  line-height: 1.6em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--headings);
+}
+.container {
+  max-width: 1504px;
+  width: 100%;
+  margin: auto;
+}
+.navbar {
+  max-width: 1500px;
+  margin-left: 200px;
+  height: 80px;
+}
+.navbar a {
+  margin: 0 20px;
+  font-size: 1.1rem;
+}
+.navbar .logo {
+  margin-left: 25px;
+}
+.search {
+  position: absolute;
+  margin: 10px 0 0 200px;
+}
+form {
+  margin-right: 50px;
+}
+.right-favicons i {
+  padding: 10px;
+  margin-right: 20px;
+}
+.btn {
+  border: 2px solid gray;
+}
+.get-started {
+  align-items: center;
+  padding: 50px 0;
+}
+.get-started p {
+  font-size: 1.3rem;
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: contain;
+  background-color: rgba(151, 246, 242, 0.1);
+}
