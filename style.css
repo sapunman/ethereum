@@ -82,3 +82,25 @@ form {
   object-fit: contain;
   background-color: rgba(151, 246, 242, 0.1);
 }
+.wie {
+  max-width: 500px;
+  margin: 150px 0 0 120px;
+}
+.firstCard {
+  background-color: lightblue;
+}
+.secondCard {
+  background-color: bisque;
+}
+.thirdCard {
+  background-color: #e1fefa;
+}
+.fourthCard {
+  background-color: rgb(255, 241, 255);
+}
+.fifthCard {
+  background-color: rgb(177, 160, 253);
+}
+.fifthImg {
+  margin-top: 30px;
+}
