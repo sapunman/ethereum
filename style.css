@@ -99,8 +99,14 @@ form {
   background-color: rgb(255, 241, 255);
 }
 .fifthCard {
-  background-color: rgb(177, 160, 253);
+  background-color: rgb(230, 225, 255);
 }
 .fifthImg {
-  margin-top: 30px;
+  margin: 120px 0;
+}
+.poluNaslov {
+  margin-left: 35px;
+}
+blockquote .info {
+  margin-top: 10px;
 }
